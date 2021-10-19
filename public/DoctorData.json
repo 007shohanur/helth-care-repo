@@ -1,0 +1,72 @@
+ [
+    {   "id": "1",
+        "name": "Prof. Dr. M.N. Huda",
+         "degree":"MBBS (DMC), DDV (DU), FCPS (Skin & Sex)",
+         "specialist":"Expert Dermatologist, Sexologist & Venereologist" ,
+         "chember": "Dhaka Medical College & Hospital",  
+         "img": "https://i.ibb.co/1GqsVzq/1457435990.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Md. Ghulam Mustafa",
+        "degree":"MBBS (DMC), DEM (BIRDEM), MD (Endocrinology), MACE (USA)",
+        "specialist":"Diabetes, Thyroid & Hormone Specialist" ,
+        "chember": "Dhaka Medical College & Hospital",
+        
+         "img": "https://i.ibb.co/3fC3fsv/1457438772.jpg"
+    },
+    {   
+        "id": "3",
+        "name": "Dr. Mahmud Hasan",
+        "degree":"MBBS (DMC), FCPS (Medicine) MD (Endocrinology), FACE (USA)",
+        "specialist":"Diabetes, Thyroid & Hormone Specialist" ,
+        "chember": "Dhaka Medical College & Hospital",
+         
+         "img": "https://i.ibb.co/mhxgVb5/1457498581.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Dr. Kaniz Fatema",
+        "degree":"MBBS, FCPS (Surgery), MS (Surgery)",
+        "specialist":"Breast, Colorectal & Laparoscopic Surgery Specialist" ,
+        "chember": "Dhaka Medical College & Hospital",
+         "img": "https://i.ibb.co/2SHC72M/1457435009.jpg"
+        
+    },
+    { 
+        "id": "5",
+        "name": "Dr. Md. Golam Rabbane",
+        "degree":"MBBS (DMC), FCPS (Medicine), MD (Internal Medicine), FACP (USA)",
+        "specialist":"Medicine Specialist" ,
+        "chember": "Dhaka Medical College & Hospital",
+         "img": "https://i.ibb.co/yyJzKSc/1457271298.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Dr. Mohammad Raknuzzaman",
+        "degree":"MBBS, FCPS (Medicine), PhD (Gastroenterology)",
+        "specialist":"Gastroenterology & Medicine Specialist" ,
+        "chember": "Dhaka Medical College & Hospital",
+         
+         "img": " https://i.ibb.co/1rBGkGq/1459922501.jpg"
+    },
+    
+    {
+        "id": "7",
+        "name": "Mrs. Wahida Haque",
+       " degree":"MBBS, FCPS (OBGYN)",
+        "specialist":"Gynecology & Obstetrics Specialist" ,
+        "chember": "Dhaka Medical College & Hospital", 
+         
+         "img": "https://i.ibb.co/SdT4DP5/1459839361.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Mohammad Mamun Chowdhury",
+        "degree":"MBBS, DLO, MS (ENT), FCPS (ENT)",
+        "specialist":"ENT Specialist & Surgeon" ,
+        "chember": "Dhaka Medical College & Hospital",
+         
+         "img": "https://i.ibb.co/Fh183bp/1460785884.jpg"
+    }  
+]

@@ -1,0 +1,39 @@
+[
+
+    {
+      "id":1,"name":"CT scanner",
+      "detail":" A computerized tomography (CT) scan combines a series of X-ray images taken from different angles around your body and uses ", 
+    "testCost":"$10"
+    ,"img":"https://www.medgadget.com/wp-content/uploads/2019/11/Refurbished-Medical-Equipment-Market.jpg"
+  },
+  {
+     "id":2,"name":"X-ray",
+      "detail":"An X-ray machine is any machine that involves X-rays. It may consist of an X-ray generator and an X-ray detector.", 
+      "testCost":"$11",
+    "img":"https://d35cnulyv0pa6p.cloudfront.net/styles/800px_wide/s3/products/images/2020/23660/0109-xin_yi_-dui_zhe_dm-xuan_ding_xiu_gai_-er_xiao_xiu_gai_-removebg-preview.png?Rjq8WpntLkWFouO7VT2UQtBpzs4OM0To&itok=YEr0EnvE"},{"id":3,"name":"Ultrasound",
+    "detail":"Ultrasound is sound waves with frequencies higher than the upper audible limit of human hearing. Ultrasound is not different from \"normal\" (audible) sound in its physical properties, except that humans cannot hear it. ",
+    "testCost":"$12",
+   "img":"https://image.shutterstock.com/image-photo/ultrasound-scanner-machine-isolated-on-600w-1668453565.jpg"},
+   {
+     "id":4,"name":"Electrocardiograph Machine",
+     "detail":"Electrocardiography is the process of producing an electrocardiogram (ECG or EKG[a]). It is a graph of voltage versus time of the electrical activity of the heart[4] using electrodes placed on the skin. ",
+    "testCost":"$08" ,
+    "img":"https://cdn10.bigcommerce.com/s-p10g1rn/product_images/uploaded_images/shutterstock-414452563-ecg2.jpg?t=1531231548"
+   },
+    {  
+    "id": 5,
+     "name": "Infusion pump",
+     "detail":  "A computerized tomography (CT) scan combines a series of X-ray images taken from different angles around your body and uses computer processing to create cross-sectional images (slices) of the bones, blood vessels and soft tissues inside your body.",
+     "testCost":"$15",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Infusionspumpe.JPG/250px-Infusionspumpe.JPG"
+    
+    },
+
+   {  
+      "id": 6,
+       "name":"CBC Blood Test Machine",
+       "detail": "An X-ray machine is any machine that involves X-rays. It may consist of an X-ray generator and an X-ray detector.",
+       "testCost":"$06",
+     "img": "https://5.imimg.com/data5/NS/TC/MY-23931461/cbc-blood-test-machine-500x500.jpg"
+   }    
+]
