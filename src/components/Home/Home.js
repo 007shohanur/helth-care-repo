@@ -13,33 +13,32 @@ const Home = () => {
         <div className="container mt-5 mb-5 bg-info  bg-opacity-10">
             <Carousel fade>
   <Carousel.Item>
-    <img className="d-block w-100"
+    <img className="d-block rounded-3 w-100"
       src={image} alt="First slide" />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Opration Theatar</h3>
+      <p>High lavle opration theatar. We provied best our services</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block rounded-3 w-100"
       src={image2} alt="Second slide"/>
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>I C U</h3>
+      <p>High lavel I C U.We provied best our services</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block rounded-3 w-100"
       src={image3} alt="Third slide" />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Genarel Cabine</h3>
+      <p>High lavel Genarel Cabine .We provied best our services.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
   <Services></Services>
   <AboutUs></AboutUs>
   <Blog></Blog>

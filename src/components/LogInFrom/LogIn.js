@@ -39,7 +39,6 @@ const LogIn = () => {
   </Button>
   <br/><br/> <br/>
   <button onClick={handelGoogleSingIn} className="btn btn-primary">Google Sign in</button>
-  
 </Form>
         </div>
     );

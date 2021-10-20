@@ -26,9 +26,8 @@ const Footer = () => {
           <p>Subscribes and get discount</p>
           <div class="input-group mb-3 w-75">
              <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Recipient'susername" aria-describedby="button-addon2"/>
-             <button class="btn btn-outline-secondary" type="button"id="button-addon2">Button</button>
+             <button class="btn btn-outline-success" type="button"id="button-addon2">Submit</button>
         </div>
-      
         </div>
       </div>
     </div>

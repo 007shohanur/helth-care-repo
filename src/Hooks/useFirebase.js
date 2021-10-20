@@ -8,21 +8,21 @@ const useFirebase = () => {
 
   const [user, setUser] = useState();
   const [loading, setLoading] = useState(true);
-  // email and password
+  // email and password //
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   // 
   const auth = getAuth();
   const googleprovider = new GoogleAuthProvider();
-  // google login section
+  // google login //
   const googlelognin =() =>{
     setLoading(true);
     return signInWithPopup(auth, googleprovider);
   };
   
   
-  // onAuthStateChanged section
+  // onAuthStateChanged section//
   useEffect(()=>{
     const Changed= onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -35,7 +35,7 @@ const useFirebase = () => {
     });
     return () => Changed;
   },[]);
-    // Logout section
+    // Logout section//
   const logOut =()=>{
     setLoading(true);
       signOut(auth)
@@ -43,7 +43,7 @@ const useFirebase = () => {
       .finally(() => setLoading(false));
   }
 
-  // Email and password
+  // Email and password section//
   const handleEmail = e =>{
     setEmail(e.target.value);
   }

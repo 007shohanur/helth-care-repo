@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 import useServices from '../../Custom-Hook2/useServices';
 const Services = () => {
     const [services, setServices] = useServices([]);
@@ -17,7 +19,9 @@ const Services = () => {
                    
                   </div>
                   <div className="p-3">
-                  <Button variant="primary">Go somewhere</Button>
+                 <Link to ="/details" >
+                   <Button varient="primary" >Show Details</Button>
+                 </Link>
                   </div>
                 </div>
               </div>)

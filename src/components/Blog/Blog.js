@@ -10,7 +10,6 @@ const Blog = () => {
   return (
     <div className='blog'>
       <h1 className='text-center text-danger '>Blogs</h1>
-      <h3 className='text-center mb-5'>......................</h3>
       <div className='container mb-4'>
       <div className='row'>
           <div className='col'>

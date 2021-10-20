@@ -4,7 +4,7 @@ import image  from '../../image/about.jpg';
 const AboutUs = () => {
     return (
         
-            <div class="card mb-3 w-50 mx-auto mt-4">
+            <div class="card mb-3 w-50 mx-auto mt-5">
             <img src={image} class="card-img-top" alt="..."/>
             <div class="card-body">
           <h5 class="card-title">About Our Hospitality</h5>
