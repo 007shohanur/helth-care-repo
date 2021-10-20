@@ -1,7 +1,22 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { useHistory, useLocation } from 'react-router';
+import useAuth from '../../Hooks/useAuth';
 
 const Register = () => {
+  const {googlelognin} = useAuth();
+  const location = useLocation()
+  const history = useHistory()
+  const redirectPage = location.state?.from || '/';
+  const handelGoogleSingIn = (e) =>{ 
+    e.preventDefault()
+    googlelognin()
+    .then(result=>{
+      history.push(redirectPage)
+    })
+    
+  }
+
     return (
         <div className="container w-25 mt-5 bg-info bg-opacity-10 p-3 mb-5">
             <Form>
@@ -27,6 +42,8 @@ const Register = () => {
   <Button variant="primary" type="submit">Register
   </Button>
 </Form>
+<br/><br/> <br/>
+  <button onClick={handelGoogleSingIn} className="btn btn-primary"> Sign Up With Google</button>
         </div>
     );
 };

@@ -3,26 +3,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch,Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
-import Services from './Components/Services/Services';
-
-import AboutUs from './Components/Aboutus/AboutUs';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import ContactUs from './Components/ContactUs/contactUs';
 import Doctors from './Components/Doctors/Doctors';
 import Regester from './Components/Registerfrom/Register';
 import LogIn from './Components/LoginFrom/LogIn';
-
-
-
-
-
-
-
+import AuthProvider from './context/AuthProvider/AuthProvider';
+import PricateRoute from './Components/PricateRoute/PricateRoute';
 
 function App() {
   return (
-    <div className="App">
+    <AuthProvider>
  <BrowserRouter>
        <Header></Header>
       <Switch>
@@ -32,18 +24,12 @@ function App() {
         <Route path="/home">
           <Home></Home>
         </Route>
-        <Route path="/services">
-          <Services></Services>
-        </Route>
-        <Route path="/doctors">
+        <PricateRoute path="/doctors">
           <Doctors></Doctors>
-        </Route>
-        <Route path="/aboutus">
-          <AboutUs></AboutUs>
-        </Route>
-        <Route path="/contactus">
+        </PricateRoute>
+        <PricateRoute path="/contactus">
           <ContactUs></ContactUs>
-        </Route>
+        </PricateRoute>
         <Route path="/register">
           <Regester></Regester>
         </Route>
@@ -53,7 +39,7 @@ function App() {
       </Switch>
       <Footer></Footer>
       </BrowserRouter>
-    </div>
+    </AuthProvider>
   );
 }
 

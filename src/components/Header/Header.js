@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className=" bg-info">
+        <div className=" bg-dark bg-opacity-25">
           <div>
               
           <ul className="d-flex justify-content-between pt-3 pb-3">
@@ -18,12 +18,7 @@ const Header = () => {
           
           <Link className="text-decoration-none text-white p-3" to="/doctors">Doctors</Link>
 
-          <Link className="text-decoration-none text-white p-3" to="/services">Services</Link>
-
-
            <Link className="text-decoration-none text-white p-3" to="/contactUs">ContactUs</Link>
-
-          <Link className="text-decoration-none text-white p-3" to="/aboutUs">AboutUS</Link>
 
           <Link className="text-decoration-none mx-2 rounded-3 bg-danger text-white p-3" to="/register">Register</Link>
 
