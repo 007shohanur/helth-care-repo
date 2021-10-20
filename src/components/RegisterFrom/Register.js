@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 
 const Register = () => {
     return (
-        <div className="container w-25 mt-5 bg-info bg-opacity-10 p-3">
+        <div className="container w-25 mt-5 bg-info bg-opacity-10 p-3 mb-5">
             <Form>
   <Form.Group className="mb-3" controlId="formBasicUserName">
     <Form.Label>User Name</Form.Label>

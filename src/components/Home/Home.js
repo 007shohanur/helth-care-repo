@@ -1,3 +1,4 @@
+
 import React from 'react';
 import image from '../../image/Slider/slider 1.jpg';
 import image2 from '../../image/Slider/slider2.jpg';

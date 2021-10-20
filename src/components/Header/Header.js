@@ -10,7 +10,7 @@ const Header = () => {
               
           <ul className="d-flex justify-content-between pt-3 pb-3">
 
-          <img src={image} className="logo justify-content-start" alt="" /> 
+          <img src={image} className="logo rounded-circle justify-content-start" alt="" /> 
           
            <div className=" justify-content-end ms-5 pt-2 ">
 
@@ -25,9 +25,9 @@ const Header = () => {
 
           <Link className="text-decoration-none text-white p-3" to="/aboutUs">AboutUS</Link>
 
-          <Link className="text-decoration-none text-white p-3" to="/register">Register</Link>
+          <Link className="text-decoration-none mx-2 rounded-3 bg-danger text-white p-3" to="/register">Register</Link>
 
-          <Link className="text-decoration-none text-white p-3" to="/login">LogIn</Link>
+          <Link className="text-decoration-none mx-3 bg-success rounded-3 text-white p-3" to="/login">LogIn</Link>
         
            </div>
           
